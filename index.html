@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta content="text/html;charset=utf-8" http-equiv="Content-Type">
+    <meta content="utf-8" http-equiv="encoding">
+    <link rel="stylesheet" type="text/css" href="quad_slider.css"/>
+</head>
+
+<body>
+
+    <div id="quad_slider">
+        <!-- TOP LEFT SLIDER -->
+        <div id="tl_slider">
+          <img src="pics/1.png">
+          <img src="pics/2.jpg">
+        </div>
+        
+        <!-- TOP RIGHT SLIDER -->
+        <div id="tr_slider">
+          <img src="pics/3.jpg">
+          <img src="pics/4.jpg">
+        </div>
+        
+        <!-- BOTTOM LEFT SLIDER -->
+        <div id="bl_slider">
+          <img src="pics/5.jpg">
+          <img src="pics/6.jpg">
+        </div>
+        
+        <!-- BOTTOM RIGHT SLIDER -->
+        <div id="br_slider">
+          <img src="pics/7.png">
+          <img src="pics/8.jpg">
+        </div>
+    </div>
+
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+    <script src="quad_slider.js"></script>
+    <script type="text/javascript">
+        $(document).ready(function() {
+           $('quad_slider').quadSlider();
+        }); 
+    </script>
+</body>
+</html>
