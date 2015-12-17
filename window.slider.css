@@ -1,4 +1,4 @@
-#quad_slider{
+#window-slider{
     width: 815px;
     height: 515px;
     position: relative;
@@ -10,44 +10,47 @@
     border-bottom-left-radius: 15px;
     border-bottom-right-radius: 15px;
 }
-#tl_slider{
+#tl-slider{
     border: solid 5px #000;
     border-right: solid 2.5px #000;
     border-bottom: solid 2.5px #000;
     border-top-left-radius: 15px;
 }
-#tr_slider{
+#tr-slider{
     border: solid 5px #000;
     border-left: solid 2.5px #000;
     border-bottom: solid 2.5px #000;
     border-top-right-radius: 15px;
 }
-#bl_slider{
+#bl-slider{
     border: solid 5px #000;
     border-right: solid 2.5px #000;
     border-top: solid 2.5px #000;
     border-bottom-left-radius: 15px;
 }
-#br_slider{
+#br-slider{
     border: solid 5px #000;
     border-left: solid 2.5px #000;
     border-top: solid 2.5px #000;
     border-bottom-right-radius: 15px;
 }
-#quad_slider > div:nth-child(odd){
+#window-slider > div:nth-child(odd){
     float: left;
 }
-#quad_slider > div:nth-child(even){
+#window-slider > div:nth-child(even){
     float: right;
 }
-#quad_slider > div{
+#window-slider > div{
     position:relative;
     width: 400px;
     height: 250px;
     overflow: hidden;
 }
-#quad_slider > div > img {
+#window-slider > div > img{
     position: relative;
     width: 400px;
     height: 250px;
+}
+#window-slider > div > img:nth-child(n+2){
+    display: none;
 }
