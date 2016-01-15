@@ -9,7 +9,7 @@ Demo can be seen here: http://windowslider.ajdrafts.com
 Enjoy!
 
 
-HTML:
+HTML
 
     <div id="window-slider">
         <!-- TOP LEFT SLIDER -->
@@ -38,7 +38,7 @@ HTML:
     </div>
 
 
-JAVASCRIPT:
+JAVASCRIPT
 
     <script type="text/javascript">
         $(document).ready(function() {
@@ -47,7 +47,7 @@ JAVASCRIPT:
     </script>
 
 
-FILES TO INCLUDE:
+FILES TO INCLUDE
 
     <link rel="stylesheet" type="text/css" href="window.slider.css"/>
     <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
