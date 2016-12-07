@@ -4,12 +4,10 @@ This project is a simple jQuery plugin.
 
 The plugin is a 4 section window slider than alternates showing multiple images in each section while rotating images in sequence.
 
-Demo can be seen here: http://windowslider.ajdrafts.com
-
-Enjoy!
+Demo can be seen here: http://ajavadi34.github.io/window-slider/
 
 
---HTML--
+### HTML
 
     <div id="slider-1" class="window-slider">
         <!-- TOP LEFT SLIDER -->
@@ -38,7 +36,7 @@ Enjoy!
     </div>
 
 
---JAVASCRIPT--
+### JAVASCRIPT
 
     <script type="text/javascript">
         $(document).ready(function() {
@@ -52,3 +50,5 @@ Enjoy!
     <link rel="stylesheet" type="text/css" href="window.slider.css"/>
     <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
     <script src="window.slider.js"></script>
+
+Enjoy!
