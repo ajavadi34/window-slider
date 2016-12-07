@@ -35,6 +35,11 @@ Demo can be seen here: http://ajavadi34.github.io/window-slider/
         </div>
     </div>
 
+### FILES TO INCLUDE
+
+    <link rel="stylesheet" type="text/css" href="window.slider.css"/>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+    <script src="window.slider.js"></script>
 
 ### JAVASCRIPT
 
@@ -43,12 +48,5 @@ Demo can be seen here: http://ajavadi34.github.io/window-slider/
            $('#slider-1').windowSlider();
         }); 
     </script>
-
-
-### FILES TO INCLUDE
-
-    <link rel="stylesheet" type="text/css" href="window.slider.css"/>
-    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
-    <script src="window.slider.js"></script>
 
 Enjoy!
