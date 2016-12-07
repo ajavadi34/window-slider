@@ -26,7 +26,45 @@
 
 <p>The plugin is a 4 section window slider than alternates showing multiple images in each section while rotating images in sequence.</p>
 
-<p>Demo can be seen here: <a href="http://ajavadi34.github.io/window-slider/">http://ajavadi34.github.io/window-slider/</a></p>
+<h3>
+<a id="demo" class="anchor" href="#demo" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>DEMO</h3>
+
+<div id="window-slider-demo">
+    <div id="slider-1" class="window-slider">
+        <!-- TOP LEFT SLIDER -->
+        <div class="tl-window">
+          <img src="https://placeimg.com/400/250/tech/sepia">
+          <img src="https://placeimg.com/400/250/tech">
+        </div>
+        
+        <!-- TOP RIGHT SLIDER -->
+        <div class="tr-window">
+          <img src="https://placeimg.com/400/250/nature/grayscale">
+          <img src="https://placeimg.com/400/250/nature">
+        </div>
+        
+        <!-- BOTTOM LEFT SLIDER -->
+        <div class="bl-window">
+          <img src="https://placeimg.com/400/250/arch">
+          <img src="https://placeimg.com/400/250/arch/sepia">
+        </div>
+        
+        <!-- BOTTOM RIGHT SLIDER -->
+        <div class="br-window">
+          <img src="https://placeimg.com/400/250/animals">
+          <img src="https://placeimg.com/400/250/animals/grayscale">
+        </div>
+    </div>
+
+    <link rel="stylesheet" type="text/css" href="window.slider.css"/>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+    <script src="window.slider.js"></script>
+    <script type="text/javascript">
+        $(document).ready(function() {
+           $('#slider-1').windowSlider();
+        }); 
+    </script>
+</div>
 
 <h3>
 <a id="html" class="anchor" href="#html" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>HTML</h3>
