@@ -47,7 +47,7 @@ Enjoy!
     </script>
 
 
---FILES TO INCLUDE--
+### FILES TO INCLUDE
 
     <link rel="stylesheet" type="text/css" href="window.slider.css"/>
     <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
