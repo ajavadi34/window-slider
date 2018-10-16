@@ -4,7 +4,7 @@ This project is a simple jQuery plugin.
 
 The plugin is a 4 section window slider than alternates showing multiple images in each section while rotating images in sequence.
 
-### DEMO
+## DEMO
 <iframe style="border: 0; height: 550px; width: 100%;" src="//windowslider.ajdrafts.com/"></iframe>
 
 ### HTML
@@ -48,7 +48,7 @@ The plugin is a 4 section window slider than alternates showing multiple images 
 ### FILES TO INCLUDE
 
     <link rel="stylesheet" type="text/css" href="window.slider.css"/>
-    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
     <script src="window.slider.js"></script>
 
 Enjoy!
