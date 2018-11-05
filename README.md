@@ -51,11 +51,11 @@ The plugin is a 4 section window slider than alternates showing multiple images 
 ```
 ### CUSTOMIZE
 These are the available optional parameters
-* **startPosition** 1 | 2 | 3 | 4
+* **startPosition** 1 / 2 / 3 / 4
 * **interval** duration in milliseconds
 * **fadeOutSpeed** duration in milliseconds
 * **fadeInSpeed** duration in milliseconds
-* **cycle** 'standard' | 'reverse' | 'clockwise' | 'counter-clockwise'
+* **cycle** 'standard' / 'reverse' / 'clockwise' / 'counter-clockwise'
 
 ```
 // Override default settings
