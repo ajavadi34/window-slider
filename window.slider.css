@@ -1,4 +1,4 @@
-.window-slider{
+.window-slider {
     width: 815px;
     height: 515px;
     position: relative;
@@ -10,47 +10,56 @@
     border-bottom-left-radius: 15px;
     border-bottom-right-radius: 15px;
 }
-.tl-window{
+
+.tl-window {
     border: solid 5px #000;
     border-right: solid 2.5px #000;
     border-bottom: solid 2.5px #000;
     border-top-left-radius: 15px;
 }
-.tr-window{
+
+.tr-window {
     border: solid 5px #000;
     border-left: solid 2.5px #000;
     border-bottom: solid 2.5px #000;
     border-top-right-radius: 15px;
 }
-.bl-window{
+
+.bl-window {
     border: solid 5px #000;
     border-right: solid 2.5px #000;
     border-top: solid 2.5px #000;
     border-bottom-left-radius: 15px;
 }
-.br-window{
+
+.br-window {
     border: solid 5px #000;
     border-left: solid 2.5px #000;
     border-top: solid 2.5px #000;
     border-bottom-right-radius: 15px;
 }
-.window-slider > div:nth-child(odd){
+
+.window-slider>div:nth-child(odd) {
     float: left;
 }
-.window-slider > div:nth-child(even){
+
+.window-slider>div:nth-child(even) {
     float: right;
 }
-.window-slider > div{
-    position:relative;
+
+.window-slider>div {
+    position: relative;
     width: 400px;
     height: 250px;
     overflow: hidden;
 }
-.window-slider > div > img{
+
+.window-slider>div>img {
     position: relative;
     width: 400px;
     height: 250px;
 }
-.window-slider > div > img:nth-child(n+2){
+
+.window-slider>div>img:nth-child(n+2) {
     display: none;
 }
