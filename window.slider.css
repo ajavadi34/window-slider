@@ -1,65 +1,111 @@
 .window-slider {
-    width: 815px;
-    height: 515px;
+    width: 90%;
+    max-width: 815px;
+    aspect-ratio: 815 / 515;
     position: relative;
-    left: 50%;
-    margin-left: -410px;
+    margin: 0 auto;
     background-color: #000;
-    border-top-left-radius: 15px;
-    border-top-right-radius: 15px;
-    border-bottom-left-radius: 15px;
-    border-bottom-right-radius: 15px;
+    border-radius: 15px;
+    box-sizing: border-box;
+    overflow: hidden;
 }
 
 .tl-window {
     border: solid 5px #000;
     border-right: solid 2.5px #000;
     border-bottom: solid 2.5px #000;
-    border-top-left-radius: 15px;
+    border-top-left-radius: 10px;
 }
 
 .tr-window {
     border: solid 5px #000;
     border-left: solid 2.5px #000;
     border-bottom: solid 2.5px #000;
-    border-top-right-radius: 15px;
+    border-top-right-radius: 10px;
 }
 
 .bl-window {
     border: solid 5px #000;
     border-right: solid 2.5px #000;
     border-top: solid 2.5px #000;
-    border-bottom-left-radius: 15px;
+    border-bottom-left-radius: 10px;
 }
 
 .br-window {
     border: solid 5px #000;
     border-left: solid 2.5px #000;
     border-top: solid 2.5px #000;
-    border-bottom-right-radius: 15px;
+    border-bottom-right-radius: 10px;
 }
 
-.window-slider>div:nth-child(odd) {
+.window-slider > div:nth-child(odd) {
     float: left;
 }
 
-.window-slider>div:nth-child(even) {
+.window-slider > div:nth-child(even) {
     float: right;
 }
 
-.window-slider>div {
+.window-slider > div {
     position: relative;
-    width: 400px;
-    height: 250px;
+    width: 50%;
+    height: 50%;
     overflow: hidden;
+    box-sizing: border-box;
 }
 
-.window-slider>div>img {
+.window-slider > div > img {
     position: relative;
-    width: 400px;
-    height: 250px;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
 }
 
-.window-slider>div>img:nth-child(n+2) {
+.window-slider > div > img:nth-child(n+2) {
     display: none;
+}
+
+/* Small screens: stack panels vertically */
+@media (max-width: 480px) {
+    .window-slider {
+        width: 100%;
+        aspect-ratio: 1 / 1;
+        border-radius: 10px;
+    }
+
+    .tl-window,
+    .tr-window,
+    .bl-window,
+    .br-window {
+        border-radius: 0;
+    }
+
+    .tl-window {
+        border-top-left-radius: 10px;
+        border-top-right-radius: 10px;
+        border-bottom: solid 2.5px #000;
+        border-right: solid 5px #000;
+    }
+
+    .tr-window {
+        border-top-left-radius: 0;
+        border-top-right-radius: 0;
+        border-bottom: solid 2.5px #000;
+        border-left: solid 5px #000;
+    }
+
+    .bl-window {
+        border-bottom-left-radius: 10px;
+        border-bottom-right-radius: 0;
+        border-top: solid 2.5px #000;
+        border-right: solid 5px #000;
+    }
+
+    .br-window {
+        border-bottom-left-radius: 0;
+        border-bottom-right-radius: 10px;
+        border-top: solid 2.5px #000;
+        border-left: solid 5px #000;
+    }
 }
